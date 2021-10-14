@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+
+.game-page-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e3d3c2 ;   
+}
+
+.side-colunm-1, .side-colunm-2{
+    background-color: teal;
+    height: 105vh;
+    width: 2px;
+}
+
+.game-box{ 
+    height: 500px;
+    width: 500px;
+    padding: 0px;
+    background-color: rgba(255, 0, 0, 0.2);
+    border-style:solid;
+}
+
+.game-box-wrapper{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.player-score-1, .player-score-2 {
+    height: 200px;
+    width: 150px;
+    background-color:#365577 ;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 100px;
+}
+
+.player-score-wrapper{
+    padding-top:50px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;  
+}
+
+
+.dice{
+    padding: 4px;  
+    background-color: tomato;  
+    width: 104px;  
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20%;
+}
+
+.dice-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 110px;
+}
+
+.dot-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot-number{
+    font-style: italic;
+    font-size: 100px;
+}
